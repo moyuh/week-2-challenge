@@ -8,9 +8,15 @@ body {
 }
 header {
     background-color: maroon;
-    height:fit-content;
+    height: 100%;
     width: 100%;
     border-bottom: 10px solid white;
+}
+
+img{
+    padding: 10px;
+    border: 10px solid maroon;
+
 }
 
 h1 {
@@ -23,17 +29,7 @@ nav ul li {
     background-color: black;
     text-decoration: none;
     position: relative;
-    left:75%;
-}
-
-img {
-    position: relative;
-    left:40%;
-    padding: 10px;
-    border: 10px solid maroon;
-    border-radius: 50%;
-    height: 15%;
-    width: 15%;
+    left: 60%;
 }
 
 h2 {
@@ -53,4 +49,26 @@ h2 {
     position: relative;
     left: 25%;
     right: 25%;
+}
+
+#html {
+    position:relative;
+    left: auto;
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+}
+#wedding {   
+    position: relative;
+    left:40%;
+    padding: 10px;
+    border: 10px solid maroon;
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+}
+
+#html-css img:hover {
+    border: 10px solid white;
+    opacity: 0.5;
 }
