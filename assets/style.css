@@ -8,6 +8,7 @@ body {
 }
 header {
     background-color: black;
+    margin: 0;
     height: 100%;
     width: 100%;
     border-bottom: 10px solid white;
@@ -31,17 +32,17 @@ nav ul li {
     left: 60%;
 }
 
-a:link, a:visited {
-    color: white;
-    text-decoration: underline;
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+h2 {
+    margin-left: 150px;
+    font-size: 35px;
 }
 
-h2 {
-    margin-left: 200px;
-    font-size: 35px;
+footer {
+    background-color: black;
+    height:100%;
+    width: 100%;
+    border-top: 10px solid white;
+    margin-bottom: 0;
 }
 
 .about-me {
@@ -57,6 +58,7 @@ h2 {
     left: 25%;
     right: 25%;
 }
+
 .work {
     list-style: none;
     display: flex;
@@ -91,12 +93,20 @@ h2 {
     color: white;
 }
 
+.contact {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .work, #java {
     width: 63%;
     height: 63%;
 
 }
-
 
 #html {
     display: flex;
@@ -121,6 +131,13 @@ h2 {
     width: 15%;
 }
 
+a:link, a:visited {
+    color: white;
+    text-decoration: underline;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
 
 .links, img:hover {
     border: 15px solid white;
@@ -130,4 +147,56 @@ h2 {
 
 #wedding:hover {
     opacity: 1;
+}
+
+@media screen and (max-width:480px) { body { 
+    background-color: black;
+}
+}
+@media screen and (max-width:480px) { img {
+    border: 10px solid limegreen;
+}
+}
+
+@media screen and (max-width:480px) { header, footer {
+    background-color: limegreen;
+    color:black
+}}
+
+@media screen and (max-width:480px) { nav {
+    position:relative;
+    right:50%;
+}
+}
+
+@media screen and (max-width:480px) { #html #css, .about-me {
+    right: 50%;
+    height: 50%;
+    width: 50%;
+    font-size:16px;
+}
+}
+@media screen and (max-width:480px) { .bottom-left, .bl2{
+    font-size: 16px;
+    margin-left: 18px;
+}
+}
+
+@media screen and (max-width:480px) { .work {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width:480px) { .bl2 {
+    bottom: 75px;
+}
+}
+@media screen and (max-width:480px) { #react {
+    height: 50%;
+    width: 50%;
+}
 }
