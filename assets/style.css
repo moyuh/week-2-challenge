@@ -199,19 +199,20 @@ a:link, a:visited {
 @media screen and (max-width:480px) { .work {
     display: flex;
     flex-direction: column;
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
     justify-content: center;
 }
 }
 
 @media screen and (max-width:480px) { .bl2 {
     bottom: 75px;
+    margin-left: 10px;
 }
 }
 
 @media screen and (max-width:480px) { #react {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
 }
 }
