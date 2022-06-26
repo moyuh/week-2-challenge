@@ -5,7 +5,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     line-height: 1.5;
+    padding: 15px;
+    border: 20px solid black;
+    margin: solid black;
 }
+
 header {
     background-color: black;
     margin: 0;
@@ -70,6 +74,7 @@ footer {
     margin-top: 60px;
     margin-left: 15%;
 }
+
 .bl2 {
     position: relative;
     bottom: 32%;
@@ -79,10 +84,12 @@ footer {
     width:fit-content;
     color: white;
 }
+
 .container{
     position: relative;
 
 }
+
 .bottom-left {
     position: absolute;
     bottom: 2%;
@@ -153,15 +160,20 @@ a:link, a:visited {
     background-color: black;
 }
 }
+
 @media screen and (max-width:480px) { img {
     border: 10px solid limegreen;
 }
 }
 
 @media screen and (max-width:480px) { header, footer {
+    display:flex;
+    flex-wrap: wrap;
     background-color: limegreen;
-    color:black
-}}
+    color:black;
+    font-size: 18px;
+}
+}
 
 @media screen and (max-width:480px) { nav {
     position:relative;
@@ -170,11 +182,13 @@ a:link, a:visited {
 }
 
 @media screen and (max-width:480px) { #html #css, .about-me {
-    right: 50%;
+    display:flex;
+    justify-content: center;
     height: 50%;
     width: 50%;
     font-size:16px;
 }
+
 }
 @media screen and (max-width:480px) { .bottom-left, .bl2{
     font-size: 16px;
@@ -195,6 +209,7 @@ a:link, a:visited {
     bottom: 75px;
 }
 }
+
 @media screen and (max-width:480px) { #react {
     height: 50%;
     width: 50%;
