@@ -1,13 +1,13 @@
 body {
     display:block;
-    background-color: black;
+    background-color: maroon;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     line-height: 1.5;
 }
 header {
-    background-color: maroon;
+    background-color: black;
     height: 100%;
     width: 100%;
     border-bottom: 10px solid white;
@@ -15,7 +15,7 @@ header {
 
 img {
     padding: 10px;
-    border: 10px solid maroon;
+    border: 15px solid black;
     margin: 10px;
 }
 
@@ -50,7 +50,7 @@ h2 {
     justify-content: center;
     width: 50%;
     height: 20%;
-    background-color: maroon;
+    background-color: black;
     padding: 5px;
     border: 10px solid white;
     position: relative;
@@ -60,12 +60,26 @@ h2 {
 .work {
     list-style: none;
     display: flex;
+    position: relative;
     flex-direction: row;
     width: 25%;
     height: 25%;
     justify-content: space-evenly;
     margin-top: 60px;
     margin-left: 15%;
+}
+.container{
+    position: relative;
+
+}
+.bottom-left {
+    position: absolute;
+    bottom: 2%;
+    left: 27.75%;
+    z-index: index 1;
+    background-color: black;
+    width:fit-content;
+    color: white;
 }
 
 .work, #java {
@@ -76,6 +90,7 @@ h2 {
 
 #html {
     display: flex;
+    position: relative;
     margin-left: 25%;
     height: 100%;
     width: 100%;
@@ -85,7 +100,7 @@ h2 {
     position: relative;
     left:40%;
     padding: 10px;
-    border: 10px solid maroon;
+    border: 15px solid black;
     border-radius: 50%;
     height: 15%;
     width: 15%;
@@ -93,7 +108,7 @@ h2 {
 
 
 .links, img:hover {
-    border: 10px solid white;
+    border: 15px solid white;
     opacity: 0.5;
     cursor: grab;
 }
