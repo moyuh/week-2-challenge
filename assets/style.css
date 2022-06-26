@@ -16,7 +16,7 @@ header {
 img {
     padding: 10px;
     border: 10px solid maroon;
-
+    margin: 10px;
 }
 
 h1 {
@@ -32,7 +32,6 @@ nav ul li {
 }
 
 a:link, a:visited {
-    background-color: maroon;
     color: white;
     text-decoration: underline;
     border: 0px;
@@ -58,13 +57,29 @@ h2 {
     left: 25%;
     right: 25%;
 }
+.work {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 25%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+.work, #java {
+    width: 63%;
+    height: 63%;
+
+}
 
 #html {
-    position:relative;
-    left: auto;
-    border-radius: 0%;
+    display: flex;
+    margin-left: 25%;
     height: 100%;
     width: 100%;
+
 }
 #wedding {   
     position: relative;
@@ -76,8 +91,13 @@ h2 {
     width: 15%;
 }
 
-.class, img:hover {
+
+.links, img:hover {
     border: 10px solid white;
     opacity: 0.5;
     cursor: grab;
+}
+
+#wedding:hover {
+    opacity: 1;
 }
