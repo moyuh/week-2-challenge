@@ -1,3 +1,4 @@
+/* Maroon Body that has black border around entire page*/
 body {
     display:block;
     background-color: maroon;
@@ -9,6 +10,7 @@ body {
     border: 20px solid black;
 }
 
+/*Contains my name and navigation bar to the rest of the site and a deployable resume*/
 header {
     background-color: black;
     margin: 0;
@@ -84,6 +86,7 @@ footer {
     color: white;
 }
 
+/*Container to make the title over images possible*/
 .container{
     position: relative;
 
@@ -123,6 +126,7 @@ footer {
 
 }
 
+/* to help push over the react title just enough for proper spacing */
 #nudge {
     margin-left: 3%;
 }
@@ -137,6 +141,7 @@ footer {
     width: 15%;
 }
 
+/* so the links do not change color when visited */
 a:link, a:visited {
     color: white;
     text-decoration: underline;
@@ -151,10 +156,12 @@ a:link, a:visited {
     cursor: grab;
 }
 
+/* do not want my photo to have opacity decrease with hover action to seperated it from link images */
 #wedding:hover {
     opacity: 1;
 }
 
+/* below to make adjustments for a screen width 480px */
 @media screen and (max-width:480px) { body { 
     background-color: black;
 }
