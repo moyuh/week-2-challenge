@@ -182,21 +182,6 @@ a:link, a:visited {
 }
 }
 
-@media screen and (max-width:480px) { #html #css, .about-me {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50%;
-    width: 50%;
-    font-size:16px;
-}
-}
-
-@media screen and (max-width:480px) { #html {
-    right:7%;
-}
-}
-
 @media screen and (max-width:480px) { .bottom-left {
     font-size: 16px;
     margin-left: -9px;
@@ -221,12 +206,6 @@ a:link, a:visited {
 }
 }
 
-@media screen and (max-width:480px) { #react {
-    height: 60%;
-    width: 60%;
-}
-}
-
 @media screen and (max-width:480px) { .contact {
     display: flex;
     flex-wrap: wrap;
@@ -235,3 +214,25 @@ a:link, a:visited {
 
 }
 }
+
+@media screen and (max-width:480px) { #react {
+    height: 60%;
+    width: 60%;
+}
+}
+
+@media screen and (max-width:480px) { #html {
+    right:7%;
+}
+}
+
+@media screen and (max-width:480px) { #html #css, .about-me {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    font-size:16px;
+}
+}
+

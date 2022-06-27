@@ -9,7 +9,7 @@ A showcase of my software engineering skills to date- intended to be updated as 
 ### Introduction
 A personal/professional webpage where you can find information about me, projects I have worked on, and ways to contact me.
 
-It also has a link to my resume and professional webpages as well.
+It also has a link to my resume and professional profiles as well.
 It is accessible on both full 1400px wide screen and a 480px wide screen as well.
 ### Technologies 
     -HTML
