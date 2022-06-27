@@ -7,7 +7,6 @@ body {
     line-height: 1.5;
     padding: 15px;
     border: 20px solid black;
-    margin: solid black;
 }
 
 header {
@@ -172,27 +171,35 @@ a:link, a:visited {
     background-color: limegreen;
     color:black;
     font-size: 18px;
+    height:100%;
+    width:100%;
 }
 }
 
-@media screen and (max-width:480px) { nav {
-    position:relative;
-    right:50%;
+@media screen and (max-width:480px) { nav, .link {
+    position: relative;
+    margin-right: 50%;
 }
 }
 
 @media screen and (max-width:480px) { #html #css, .about-me {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     height: 50%;
     width: 50%;
     font-size:16px;
 }
-
 }
-@media screen and (max-width:480px) { .bottom-left, .bl2{
+
+@media screen and (max-width:480px) { #html {
+    right:7%;
+}
+}
+
+@media screen and (max-width:480px) { .bottom-left {
     font-size: 16px;
-    margin-left: 18px;
+    margin-left: -9px;
 }
 }
 
@@ -202,10 +209,13 @@ a:link, a:visited {
     height: 60%;
     width: 60%;
     justify-content: center;
+    align-items: center;
 }
 }
 
 @media screen and (max-width:480px) { .bl2 {
+    font-size: 16px;
+    margin-left: 18px;
     bottom: 75px;
     margin-left: 10px;
 }
@@ -214,5 +224,14 @@ a:link, a:visited {
 @media screen and (max-width:480px) { #react {
     height: 60%;
     width: 60%;
+}
+}
+
+@media screen and (max-width:480px) { .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+
 }
 }
