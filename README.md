@@ -15,7 +15,7 @@ It is accessible on both full 1400px wide screen and a 480px wide screen as well
     -HTML
     -CSS
 ### Link to Deployed Application
-https://moyuh.github.io/week-1-challenge/
+https://moyuh.github.io/week-2-challenge/
 
 ### Screenshot of Webpage
 Below is the 1400px screen
